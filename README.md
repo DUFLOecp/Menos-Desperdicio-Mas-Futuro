@@ -163,7 +163,7 @@ function calcularImpacto() {
 
     document.getElementById("resultado").style.display = "block";
 
-    fetch("https://script.google.com/macros/s/AKfycbwWXSt7hiZdFdKWl-UFc2SM8jKd9qUR9q8LZ0hGOKIyhvo_ASnOlYbbmUvgkVYmQ-4e/exec", {
+    fetch("AQUI_PEGA_LA_URL_DE_TU_APPS_SCRIPT", {
         method: "POST",
         body: JSON.stringify({
             peso: peso,
@@ -177,3 +177,4 @@ function calcularImpacto() {
 
 </body>
 </html>
+
